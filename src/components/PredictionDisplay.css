@@ -1,0 +1,77 @@
+.prediction-display {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.training-info,
+.prediction-info,
+.idle-info {
+  text-align: center;
+}
+
+.training-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.status-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #667eea;
+}
+
+.timer {
+  font-size: 24px;
+  font-weight: 700;
+  color: #764ba2;
+  font-family: 'Courier New', monospace;
+}
+
+.samples-info {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+}
+
+.samples-info strong {
+  color: #667eea;
+  font-size: 16px;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.score-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.score-value {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Courier New', monospace;
+}
+
+.score-label-text {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.idle-info {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+}
+
