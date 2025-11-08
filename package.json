@@ -2,6 +2,7 @@
   "name": "typing-behavior-anomaly-detector",
   "version": "1.0.0",
   "description": "React app with TensorFlow.js for typing behavior anomaly detection",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
